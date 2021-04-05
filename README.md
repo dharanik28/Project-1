@@ -73,6 +73,10 @@ The playbook implements the following tasks:
 * Ansible is installed on the Jump Box VM to distribute containers to other VMs on the network
 * Ansible playbooks are used to install the ELK stack container on the ELK server and a 'Beats' containers on the Web servers
 
+The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+
+<img src="https://github.com/dharanik28/Project-1/blob/main/diagrams/docker_ps_output.PNG">
+
 
 We have installed the following Beats on these machines:
 
