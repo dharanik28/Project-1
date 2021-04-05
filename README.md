@@ -123,5 +123,5 @@ ansible-playbook filebeat-playbook.yml
 Ansible-playbook metricbeat-playbook.yml
 ```
 
-Then navigate to curl http://10.0.0.8:5601 (Kibana) to check that the installation worked as expected. 
+Then navigate to curl http://168.61.23.94:5601/app/kibana#/home (Kibana) to check that the installation worked as expected. 
 
