@@ -77,6 +77,20 @@ The following screenshot displays the result of running `docker ps` after succes
 
 <img src="https://github.com/dharanik28/Project-1/blob/main/diagrams/docker_ps_output.PNG">
 
+Target Machines & Beats
+This ELK server is configured to monitor the following machines:
+
+10.0.0.5
+10.0.0.6
+10.0.0.7
+
+We have installed the following Beat on these machines:
+
+filebeat-7.6.1-amd64.deb
+This Beat allow us to collect the following information from each machine:
+
+Filebeat is used to send your log files to kibana. Filebeat monitors and collects log events on specificed servers.
+
 
 We have installed the following Beats on these machines:
 
@@ -118,7 +132,7 @@ SSH into the control node and follow the steps below:
     10.1.0.4
 ```
 	
-- Run the playbooks and install ELK, Filebeat, and Metricbeat run the following:
+- Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
 ```
 cd /etc/ansible
