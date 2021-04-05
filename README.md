@@ -3,12 +3,12 @@
 
 The files in this repository were used to configure the network depicted below.
 
-<img src="https://github.com/dharanik28/Project-1/blob/main/Topology.PNG">
+<img src="https://github.com/dharanik28/Project-1/blob/main/diagrams/Topology.PNG">
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml file may be used to install only certain pieces of it, such as Filebeat.
 
 
-[ELK Playbook](https://github.com/dharanik28/Project-1/blob/main/elk-playbook.yml)
+[ELK Playbook](https://github.com/dharanik28/Project-1/blob/main/ansible/elk-playbook.yml)
 
 
 This document contains the following details:
@@ -41,7 +41,7 @@ Metricbeat detects changes in system metrics such as CPU usage. We use it to det
 
 The configuration details of each machine may be found below.
 
-<img src="https://github.com/dharanik28/Project-1/blob/main/configurationDetailsofEachMachine.jpg">
+<img src="https://github.com/dharanik28/Project-1/blob/main/diagrams/configurationDetailsofEachMachine.jpg">
 
 
 * Access Policies
@@ -58,7 +58,7 @@ Machines within the network can only be accessed by peer servers. The Jumpbox Pr
 
 A summary of the access policies in place can be found in the table below.
   
-<img src="https://github.com/dharanik28/Project-1/blob/main/AccessPolicyconfigImage.jpg">
+<img src="https://github.com/dharanik28/Project-1/blob/main/diagrams/AccessPolicyconfigImage.jpg">
 
 
 *  Elk Configuration
@@ -90,11 +90,11 @@ These Beats allow us to collect the following information from each machine:
 
 The Ansible Playbooks used can be found here
 
-ansible-playbook [elk-playbook.yml](https://github.com/dharanik28/Project-1/blob/main/elk-playbook.yml)
+ansible-playbook [elk-playbook.yml](https://github.com/dharanik28/Project-1/blob/main/ansible/elk-playbook.yml)
 
-ansible-playbook [filebeat-playbook.yml](https://github.com/dharanik28/Project-1/blob/main/filebeat-playbook.yml)
+ansible-playbook [filebeat-playbook.yml](https://github.com/dharanik28/Project-1/blob/main/ansible/filebeat-playbook.yml)
 
-Ansible-playbook [metricbeat-playbook.yml](https://github.com/dharanik28/Project-1/blob/main/metricbeat-playbook.yml)
+Ansible-playbook [metricbeat-playbook.yml](https://github.com/dharanik28/Project-1/blob/main/ansible/metricbeat-playbook.yml)
 
 * Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
