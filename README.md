@@ -1,5 +1,5 @@
 #Azure Cloud Network
-Here, you will find a collection of MacOS, Linux, and Ansible scripts used for the 2020 GW Cyber Security Boot Camp.
+	Here, you will find a collection of MacOS, Linux, and Ansible scripts used for the Cyber Security Boot Camp.
 Scrips are used for the following:
 -Configure and manage Azure virtual machines
 -Create and deploy Docker containers
