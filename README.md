@@ -1,4 +1,13 @@
-﻿* Automated ELK Stack Deployment
+#Azure Cloud Network
+Here, you will find a collection of MacOS, Linux, and Ansible scripts used for the 2020 GW Cyber Security Boot Camp.
+Scrips are used for the following:
+-Configure and manage Azure virtual machines
+-Create and deploy Docker containers
+-Deploy Ansible playbooks to manage virtual machines
+-Launch ELK Stack
+The final setup includes a jumpbox hosting ansible container which connects to three seperate virtual machines.There are two machines (for redundancy) hosting DVWA and one server hosting ELK Stack.The above set up is protected by a firewall configured with a whitelist and secured ports.
+
+* Automated ELK Stack Deployment
 
 
 The files in this repository were used to configure the network depicted below.
