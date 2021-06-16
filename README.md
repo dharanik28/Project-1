@@ -1,6 +1,6 @@
 Azure Cloud Network:
 Here, you will find a collection of MacOS, Linux, and Ansible scripts used for the Cyber Security Boot Camp.
-Scrips are used for the following:
+Scripts are used for the following:
 -Configure and manage Azure virtual machines
 -Create and deploy Docker containers
 -Deploy Ansible playbooks to manage virtual machines
